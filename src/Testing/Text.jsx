@@ -4,11 +4,15 @@ import PieCharte from "../page/PieChart";
 import Length from "../page/Length";
 import Notice from "../page/Notice";
 import Admissions from "../page/Admissions";
+import Country from "../page/Country";
+import LastChar from "../page/LastChar";
 
 
 const Text = () => {
   return (
-    <div>
+    <div style={{
+      paddingBottom: "50px"
+    }}>
       <div style={{
         display: "flex",
         gap: "none"
@@ -19,6 +23,10 @@ const Text = () => {
       </div>
         <Notice/>
         <Admissions/>
+        <div className="flex gap-0">
+          <Country/>
+          <LastChar/>
+        </div>
     </div>
   );
 };

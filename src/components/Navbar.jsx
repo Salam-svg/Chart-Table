@@ -1,5 +1,5 @@
 import React from "react";
-import UnicefLogo from "../assets/image/unicef-removebg-preview.png";
+import UnicefLogo from "../assets/image/adriot-logo.webp";
 
 const Navbar = () => {
   return (

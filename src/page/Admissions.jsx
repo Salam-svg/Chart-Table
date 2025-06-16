@@ -139,7 +139,8 @@ const Admissions = () => {
         <h3 className="text-xl font-bold mb-4 p-3 rounded" style={{ 
             color: "rgb(0, 111, 191)",
             width: "98%",
-            margin: "auto"
+            margin: "auto",
+            marginBottom: "10px"
         }}>
           2017 - New SAM Admissions per country per month
         </h3>

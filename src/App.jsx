@@ -11,6 +11,7 @@ import Table2 from "./page/Table2";
 import Text from "./Testing/Text";
 import Admissions from "./page/Admissions";
 import Country from "./page/Country";
+import LastChar from "./page/LastChar";
 
 
 const App = () => {
@@ -29,6 +30,7 @@ const App = () => {
           <Route path="/" element={< Text />}/>
           <Route path="/Admin" element={< Admissions />}/>
           <Route path="/Coun" element={< Country />}/>
+          <Route path="/Last" element={< LastChar />}/>
           
           
         </Routes>
